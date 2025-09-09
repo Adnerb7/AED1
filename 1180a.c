@@ -9,20 +9,23 @@ int main () {
 	int posicao = 0;
 	int menor;
 
-scanf("%d", &a); 
+	scanf("%d", &a); 
 
-for (int i = 0; i < a; i++) {
+	for (int i = 0; i < a; i++) {
 	scanf("%d", &v[i]);
 }
 	menor = v[0];
-for (int i = 0; i < a; i++) {
-	if (v[i] < menor) { 
-	menor = v[i];
-    posicao = i;}
+	for (int i = 0; i < a; i++) {
+		if (v[i] < menor) { 
+		menor = v[i];
+    	posicao = i;
+		}
 }
 
 	printf("Menor valor: %d\n", menor);
     printf("Posicao: %d\n", posicao);
+	
 return 0;
 
 }
+

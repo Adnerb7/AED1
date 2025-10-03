@@ -18,7 +18,7 @@ int main(void) {
 
         while (fim - ini > 1) {
             descartadas[qtdDescartadas++] = n[ini++];
-            n[fim++] = n[ini++];
+            n[fim++] = n[ini++]; ////Processo que transfere a carta seguinte para a ultima posicao 
         }
 
         printf("Discarded cards:");

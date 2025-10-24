@@ -1,4 +1,4 @@
-//Exercício 4.6.2 do Feofiloff que pede uma função para remover de uma lista encadeada todos os elementos que contém x 
+//Exercício 4.6.3 do Feofiloff que pede uma função para remover de uma lista encadeada todos os elementos que contém x 
 
 void RemoveX(int x, celula *lst) {
     celula *p, *q;

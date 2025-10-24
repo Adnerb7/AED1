@@ -1,4 +1,4 @@
-#Exercicío 4.6.1 da apostila do Feofiloff que pede uma versão da função BuscaERemove para lista encadeada sem cabeça
+//Exercicío 4.6.1 da apostila do Feofiloff que pede uma versão da função BuscaERemove para lista encadeada sem cabeça
 
 void BuscaERemove(int x, celula **lst) {
     celula *p, *q;

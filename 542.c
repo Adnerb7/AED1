@@ -1,4 +1,4 @@
-// Implementação de uma fila circular usando lista ligada em C. Exercício 5.4.2 da apostila do Feofiloff 
+// Implementação de uma fila circular usando listas encadeadas em C. Exercício 5.4.2 da apostila do Feofiloff 
 
 #include <stdio.h>
 #include <stdlib.h>
